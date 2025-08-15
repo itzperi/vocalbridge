@@ -44,7 +44,7 @@ const CTASection = () => {
                 <Mail className="w-6 h-6 text-accent" />
               </div>
               <h3 className="font-semibold mb-2">Email Us</h3>
-              <p className="text-white/80 text-sm">hello@vocalbridge.ai</p>
+              <a href="mailto:vocalbridgeai@gmail.com" className="text-white/80 text-sm hover:text-accent transition-colors">vocalbridgeai@gmail.com</a>
             </div>
             
             <div className="text-center">
@@ -52,7 +52,7 @@ const CTASection = () => {
                 <Phone className="w-6 h-6 text-accent" />
               </div>
               <h3 className="font-semibold mb-2">Call Us</h3>
-              <p className="text-white/80 text-sm">+1 (555) 123-4567</p>
+              <a href="tel:+919444420367" className="text-white/80 text-sm hover:text-accent transition-colors">+919444420367</a>
             </div>
             
             <div className="text-center">

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-primary/95 border-t border-primary/20">
       <div className="container mx-auto px-6 py-12">
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+        <div className="grid md:grid-cols-5 gap-8 mb-8">
           {/* Brand Section */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
@@ -57,6 +57,21 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Investors</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h3 className="font-semibold mb-4 text-white">Contact</h3>
+            <ul className="space-y-3 text-sm text-white/80">
+              <li className="flex items-center gap-2">
+                <Mail className="w-4 h-4" />
+                <a href="mailto:vocalbridgeai@gmail.com" className="hover:text-white transition-colors">vocalbridgeai@gmail.com</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <Globe className="w-4 h-4" />
+                <a href="tel:+919444420367" className="hover:text-white transition-colors">+919444420367</a>
+              </li>
             </ul>
           </div>
         </div>

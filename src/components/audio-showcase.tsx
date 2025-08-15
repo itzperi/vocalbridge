@@ -10,16 +10,16 @@ const AudioShowcase = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full mb-6">
             <Activity className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-primary">Voice Technology Showcase</span>
+            <span className="text-sm font-medium text-primary">Tamil & English Voice Showcase</span>
           </div>
           
           <h2 className="text-title mb-6">
-            Experience Our <span className="gradient-text">AI Voice Capabilities</span>
+            Experience Our <span className="gradient-text">Multilingual Voice Technology</span>
           </h2>
           
           <p className="text-subtitle text-muted-foreground max-w-2xl mx-auto">
-            Listen to our cutting-edge AI voice technology in action. These samples demonstrate 
-            the natural quality and linguistic precision of our voice agents.
+            Listen to our cutting-edge AI voice technology in action. Featuring Tamil language support 
+            and advanced voice agent capabilities that demonstrate natural quality and linguistic precision.
           </p>
         </div>
 
@@ -27,18 +27,18 @@ const AudioShowcase = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-16">
           <div className="slide-up">
             <AudioPlayer
-              src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" // Placeholder - replace with actual English sample
-              title="English Voice Sample"
-              language="English"
+              src="/lovable-uploads/Tamil (1).mp3" 
+              title="Tamil Voice Sample"
+              language="Tamil (தமிழ்)"
               className="h-full"
             />
           </div>
           
           <div className="slide-up stagger-1">
             <AudioPlayer
-              src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" // Placeholder - replace with actual Tamil sample
-              title="Tamil Voice Sample"
-              language="Tamil (தமிழ்)"
+              src="/lovable-uploads/Voiceagent.mp3" 
+              title="AI Voice Agent"
+              language="English"
               className="h-full"
             />
           </div>
